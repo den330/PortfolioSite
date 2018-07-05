@@ -31,13 +31,16 @@
 
 .featureImage{
 	display: inline-block;
-	float: left;
 	margin: 0;
 	padding: 0;
 }
 
+.featureImage img{
+	display: inline-block;
+}
+
 #featureWorkGroup img{
-	width: 20%;
+	width: 10%;
 	height: 40px;
 	margin: 5%;
 }
