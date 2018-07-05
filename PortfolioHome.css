@@ -1,25 +1,48 @@
-#headerIcon {
-	display: inline;
-	position: absolute;
-	top: 20;
-	left: 50;
-	padding: 0;
-	margin: 0;
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+ 
+#header {
+	border-bottom: solid;
+	border-bottom-width: 2;
+	border-bottom-color: black;
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 30;
 }
 
-#titleGroup {
+#headerText{
+	float: right;
+}
+
+#mainImage{
+	display: block;
+	width: 70%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#featureWorkGroup{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.featureImage{
 	display: inline-block;
-	position: absolute;
-	right: 50;
-	top: 20;
-	padding: 0;
+	float: left;
 	margin: 0;
+	padding: 0;
 }
 
-header {
-	display: block;
+#featureWorkGroup img{
+	width: 20%;
+	height: 40px;
+	margin: 5%;
 }
 
-#main {
-	display: block;
-}
+
+
+
+
