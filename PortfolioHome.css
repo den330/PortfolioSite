@@ -40,14 +40,13 @@ h1{
 }
 
 #sideColorGroup p{
-	margin: 0 auto 0 5%;
+	margin: 0 0 0 5%;
 }
 
 .colorBlock{
 	width: 80px;
   	height: 80px;
-  	margin: 20px auto 5px 5%;
-  	border: 1px solid rgba(0, 0, 0, .2);
+  	margin: 20px 0 5px 5%;
 }
 
 .blueColor{
@@ -63,16 +62,35 @@ h1{
 }
 
 #mainImage{
-	width: 70%;
+	width: 80%;
 	height: 400;
 	float: right;
-	margin-right: 10%;
-	margin-left: 5%;
+	margin-right: 40;
+	margin-left: 0;
 }
 
 #featureWorkGroup{
 	clear: both;
+	margin-right: 40;
+	float: right;
+	width: 80%;
 }
+
+.featureImage{
+	width: 32%;
+	float: left;
+}
+
+#bottomImage1, #bottomImage2{
+	margin-right: 2%;
+}
+
+.featureImage img{
+	width: 100%;
+	height: 100;
+}
+
+
 
 
 
