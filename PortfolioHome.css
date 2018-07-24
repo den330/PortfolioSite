@@ -7,7 +7,7 @@
   border-width: 0
 }
  
-#header {
+header {
 	border-bottom: solid;
 	border-bottom-width: 2;
 	border-bottom-color: black;
